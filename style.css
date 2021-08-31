@@ -83,6 +83,14 @@ section img#moon{
 section img#mountains_front{
     z-index: 10;
 }
+footer{
+    display: flex;
+    background: #1c0522;
+    justify-content: center;
+}
+footer h2{
+     color: #fff;
+}
 .text{
     position: absolute;
     color: #fff;
