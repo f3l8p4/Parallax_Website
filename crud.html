@@ -31,24 +31,6 @@
         <h2>Parallax scrolling effects</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam libero massa, tincidunt ac est ut, sollicitudin sodales nisl. Integer tincidunt ante ut mi vulputate tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam volutpat urna rhoncus erat porta, eu sagittis ipsum tempus. Etiam vestibulum purus lorem, vel efficitur dui tristique sed. Suspendisse consequat metus in sollicitudin tempus. Donec vestibulum eros elit, in tincidunt tortor luctus at. Curabitur tristique sapien eu nisl tempor, <br> <br> eget tincidunt tellus blandit. Pellentesque eget vulputate lacus. Sed non eleifend magna. Aenean tortor neque, accumsan ut orci vel, fringilla tempor turpis. Donec tempor, nisl nec euismod imperdiet, est purus ultricies quam, ac facilisis mi nibh in nisi. Pellentesque tempor, felis quis sagittis fringilla, odio eros pretium ipsum, et consectetur nulla dolor rhoncus massa. Praesent lobortis nisi non lacus elementum pellentesque. Suspendisse libero leo, porta a nisi eu, aliquet gravida mauris.</p>
     </div>
-    <script>
-        let moon = document.getElementById('moon')
-        let stars = document.getElementById('stars')
-        let mountains_behind = document.getElementById('mountains_behind')
-        let mountains_front = document.getElementById('mountains_front')
-        let button = document.getElementsByClassName('btn') 
-        let text = document.getElementsByClassName('text')
-
-        window.addEventListener('scroll',function(){
-        let value = window.scrollY
-        stars.style.left = value * 0.025 +'px'
-        moon.style.top = value * 1.05 + 'px'
-        mountains_behind.style.top = value + 0.5 + 'px'
-        mountains_front.style.top = value + 0.5 + 'px'
-        text.style.marginRight = value + 4 + 'px'
-})
-console.log('Ola')
-console.log('hola que ta')
-    </script>
+    <script src="./index.js"></script>
 </body>
 </html>
