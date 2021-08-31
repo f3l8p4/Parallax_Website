@@ -88,7 +88,7 @@ section img#mountains_front{
     color: #fff;
     white-space: nowrap;
     font-size: 7.5vw;
-    z-index: 9;
+    z-index: 0;
 }
 .btn{
     text-decoration: none;
@@ -98,7 +98,7 @@ section img#mountains_front{
     background: #fff;
     color: #2b1055;
     font-size: 1.5em;
-    z-index: 9;
+    z-index: 0;
     transform: translateY(100px);
 }
 .sec{
